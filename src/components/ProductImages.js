@@ -6,7 +6,7 @@ const ProductImages = ({ images }) => {
     <div>
       
       {images.map((image, index) => (
-        <img key={index} src={image} alt={`Product Image ${index}`} />
+        <img key={index} src={image} alt=""/>
       ))}
     </div>
   );
