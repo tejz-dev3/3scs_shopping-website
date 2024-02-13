@@ -4,6 +4,7 @@ import Search from './Search';
 import { Link } from 'react-router-dom';
 
 
+
 const Home = () => {
   const [products, setProducts] = useState([]);
   // const [carouselImages, setCarouselImages] = useState([]);
@@ -53,11 +54,11 @@ const Home = () => {
               <p>{product.title}</p>
               <p>Brand: {product.brand}</p>
               <p>Category: {product.category}</p>
-              {/* <p>Description: {product.description}</p> */}
               <p>Price: ${product.price}</p>
               <p>Rating: {product.rating}</p>
               <p>Stock: {product.stock}</p>
               <p>Discount Percentage: {product.discountPercentage}%</p>
+              {/* <ProductDetails /> */}
             </div>
           </div>
           </Link>

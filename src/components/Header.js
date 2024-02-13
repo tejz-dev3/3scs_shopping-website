@@ -7,7 +7,6 @@ import { faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Header = ()=>{
     return(
-        <div>
      <div className="header">
      <div className="logo">
           <img src="https://snipboard.io/2DJSxv.jpg" alt="3sc Logo"  className='logo-img'/>
@@ -22,7 +21,6 @@ const Header = ()=>{
           <li><FontAwesomeIcon icon={faUser} className="icon" /></li>
         </ul>
       </nav>
-    </div>
     </div>
     )
 }

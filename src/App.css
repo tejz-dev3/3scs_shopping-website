@@ -185,3 +185,63 @@ button:hover {
 .product-card-link{
   text-decoration: none;
 }
+
+/* App.css */
+/* ... your existing styles ... */
+
+/* Make App header responsive */
+@media (max-width: 768px) {
+  .App-header {
+    min-height: 50vh;
+  }
+}
+
+/* Header.css */
+/* ... your existing styles ... */
+
+/* Make Navbar responsive */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* Footer.css */
+
+/* Grid responsive */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*  Product Card responsive */
+@media (max-width: 667px) {
+  .product-card {
+    padding: 10px;
+  }
+}
+
+/*  Search Bar responsive */
+@media (max-width: 667px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input[type="text"] {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-left: 0;
+  }
+}
