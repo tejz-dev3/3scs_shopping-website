@@ -36,3 +36,152 @@
     transform: rotate(360deg);
   }
 }
+
+/* Header.css */
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img{
+  height: 65px;
+  width: 65px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  padding: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-info{
+  text-decoration: none;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.product_img{
+  height: 250px;
+
+}
+
+.carousel-item{
+  margin: 20px;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+input[type="text"] {
+  padding: 10px; 
+  font-size: 16px; 
+  width: 300px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+button {
+  padding: 10px 15px; 
+  font-size: 16px; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-left: 10px; 
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add hover effect to icons */
+.icon:hover {
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Remove link underline style */
+.navbar a:hover{
+  text-decoration: none;
+  color: #fff; 
+  transition: color 0.3s ease; 
+}
+
+.product-card-link{
+  text-decoration: none;
+}
